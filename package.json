@@ -1,0 +1,23 @@
+{
+  "name": "untitled",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "DEBUG=waterline-orm:server node ./bin/www"
+  },
+  "dependencies": {
+    "@types/waterline": "0.13.5",
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^16.0.1",
+    "express": "~4.16.1",
+    "lodash": "^4.17.21",
+    "morgan": "~1.9.1",
+    "sails-disk": "2.1.1",
+    "sails-mongo": "2.0.0",
+    "sails-mysql": "2.0.0",
+    "uuid": "^8.3.2",
+    "waterline": "^0.15.0"
+  }
+}
